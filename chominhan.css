@@ -1,0 +1,30 @@
+html{
+    background-image: 
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzqPqzbaufRqKC7hgyXjVtgbgy_k72J5mS9A&s);
+}
+#back{
+    font-size: 30px;
+    background-image: rgba;
+    border-radius: 10px;
+}
+.left{
+    margin: 5% 10% 2.5%;
+    border-radius: 10px;
+}
+div{
+    margin-top: 5%;
+}
+#container1{
+    float: left;
+}
+#container2{
+    float: right;
+}
+.right{
+    margin: 5% 10% 2.5%;
+    border-radius: 10px;
+}
+#minh{
+    border-radius: 10px;
+    border: 3px solid blanchedalmond;
+}

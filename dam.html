@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+<TITle>Đấm Tức Mìn thui</TITle>
+<meta charset="utf-8">
+<link rel="stylesheet" href="dam.css">
+    </head>
+    <body>
+      <a href="index.html">
+        <button id="back">Back</button>
+      </a>
+        <img src="sapdam.jpg" alt="minh sắp bị đấm" id="img1" class="dam">
+        <br>
+        <div>
+        <button id="nutdam" class="dam">Đấm 👊</button>
+        </div>
+        <script>
+            const img1 = document.getElementById("img1");
+const nutdam = document.getElementById("nutdam");
+
+let isFirstImage = true;
+
+nutdam.addEventListener("click", function() {
+  if (isFirstImage) {
+    img1.src = "bidam.jpg"; img1.alt="minh đã bị đấm"; nutdam.innerHTML="Thôi không đấm nữa";
+  } else {
+    img1.src = "sapdam.jpg"; img1.alt="minh sắp bị đấm"; nutdam.innerHTML="Đấm tiếp cho bõ ghét 👊";
+  }
+  isFirstImage = !isFirstImage;
+});
+        </script>
+    </body>
+    </html>

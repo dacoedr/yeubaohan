@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+<TITle>Cho Minh ăn</TITle>
+<meta charset="utf-8">
+<link rel="stylesheet" href="chominhan.css">
+</head>
+<body>
+    <a href="index.html" style="position: absolute;">
+        <button id="back">Back</button>
+      </a>
+      <div id="container1">
+       <button class="left" id="rau" onclick="rau()"> <img src="rau.webp" alt="rau" style="height: 100px;width: 100px;"></button>
+       <br>
+       <button class="left" id="steak" onclick="steak()"><img src="steak.png" alt="steak" style="height: 100px;width: 100px;"></button>
+       <br>
+       <button class="left" id="garan" onclick="garan()"><img src="friedchicken.png" alt="garan" style="height: 100px;width: 100px;"></button>
+      </div>
+      <img src="bthg.jpg" alt="tuc min" id="minh" style="height: 600px;margin-left: 15%;margin-right: 15%;">
+      <div id="container2">
+        <button class="right" id="moc" onclick="moc()"> <img src="moc.jpg" alt="moc" style="height: 100px;width: 100px;"></button>
+       <br>
+       <button class="right" id="dinh" onclick="dinh()"><img src="dinh.jpg" alt="dinh" style="height: 100px;width: 100px;"></button>
+       <br>
+       <button class="right" id="tra" onclick="tra()"><img src="tra.jpg" alt="tra" style="height: 100px;width: 100px;"></button>
+      </div>
+</body>
+<script>
+    function rau(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="anrau.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="ngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+    function steak(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="ansteak.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="ngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+        function garan(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="angaran.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="ngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+        function moc(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="anmoc.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="kngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+        function dinh(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="andinh.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="kngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+        function tra(){
+        var a = document.getElementById("minh");
+        setTimeout(function(){ a.src="antra.png" }, 0);
+        setTimeout(function(){ a.src="dongmieng.jpg" }, 750);
+        setTimeout(function(){ a.src="kngon.jpg" }, 1500);
+        setTimeout(function(){ a.src="bthg.jpg" }, 2250);}
+</script>
+</html>

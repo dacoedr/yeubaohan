@@ -1,0 +1,19 @@
+html{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzqPqzbaufRqKC7hgyXjVtgbgy_k72J5mS9A&s);
+}
+#img1{
+    width: 31.5% ;
+    height: 42% ;
+    margin: auto 33.5% auto;
+    border-radius: 10px;
+}
+button{
+    font-size: 30px;
+    border-radius: 10px;
+}
+div{display: flex;
+align-items: center;
+justify-content: center;}
+#back{
+    float: left;
+}
